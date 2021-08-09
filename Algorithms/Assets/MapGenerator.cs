@@ -486,7 +486,9 @@ public class MapGenerator : MonoBehaviour
     void CreateCorridor(Room roomA, Room roomB, Coord tileA, Coord tileB)
     {
         Room.ConnectRooms(roomA, roomB);
-        Debug.DrawLine(coordToWorld(tileA), coordToWorld(tileB),Color.green,100);
+
+        //Visual help for recognizing corridor paths
+        //Debug.DrawLine(coordToWorld(tileA), coordToWorld(tileB),Color.green,100);
         List<Coord> line = GetLine(tileA, tileB);
         foreach (Coord c in line)
         {

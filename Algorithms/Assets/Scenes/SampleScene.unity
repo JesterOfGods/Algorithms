@@ -157,8 +157,8 @@ MonoBehaviour:
   randomFillPercentage: 48
   smoothAmount: 5
   borderSize: 1
-  WallThicknessLowerThreshold: 3
-  RoomThreshold: 10
+  WallThicknessLowerThreshold: 10
+  RoomThreshold: 25
   corridorRadious: 1
 --- !u!4 &55177580
 Transform:
